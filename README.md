@@ -46,3 +46,15 @@
 
 # Instantiate frontend container
 `$ docker run --name react-app --rm -p 3000:3000 -it -v "D:/Courses/udemy/Docker and Kubernetes/Resources/multi-01-starting-setup/frontend/src:/app/src" react-goals`
+
+---
+---
+# Using Docker Compose
+
+## To run the app
+
+`$ docker-compose up -d`
+
+## To stop the app
+
+`$ docker-compose down`
