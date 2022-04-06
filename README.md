@@ -45,4 +45,4 @@
 `$ docker run --name node-app --rm -d -p 80:80 --network app-net -v logs:/app/logs -v "D:/Courses/udemy/Docker and Kubernetes/Resources/multi-01-starting-setup/backend:/app" -v /app/node_modules -e MONGODB_USERNAME=username node-goals`
 
 # Instantiate frontend container
-`$ docker run --name react-app --rm -p 3000:3000 -it -v "D:/Courses/udemy/Docker and Kubernetes/Resources/multi-01-starting-setup/frontend/src:/app" react-goals`
+`$ docker run --name react-app --rm -p 3000:3000 -it -v "D:/Courses/udemy/Docker and Kubernetes/Resources/multi-01-starting-setup/frontend/src:/app/src" react-goals`
